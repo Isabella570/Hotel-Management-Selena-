@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+  <name>gazette_joohopia</name>
+  <version>1.0.0</version>
+  <creationDate>08/2009</creationDate>
+  <author>joohopia.com</author>
+  <authorEmail>info@joohopia.com</authorEmail>
+  <authorUrl>http://www.joohopia.com</authorUrl>
+  <copyright>joohopia.com</copyright>
+  <license></license>
+  <description>
+    <![CDATA[<h1>joohopia: Gazette v1.0</h1>
+      
+      <img src="../templates/gazette_joohopia/template_thumbnail.png" alt="Gazette" title="Gazette"/>
+      <br><br><h2>Backgrounds:</h2>
+	  <img src="../templates/gazette_joohopia/images/background/back_wood_blueish.jpg" alt="Wood Blueish" title="Wood Blueish" width="100px" height="100px"/>
+	  <img src="../templates/gazette_joohopia/images/background/back_wood_darkgrey.jpg" alt="Wood Darkgrey" title="Wood Darkgrey" width="100px" height="100px"/>
+	  <img src="../templates/gazette_joohopia/images/background/back_wood_yellish.jpg" alt="Wood Yellish" title="Wood Yellish" width="100px" height="100px"/>
+	  <br><br>
+      <a href="http://www.joohopia.com/">joohopia</a> home page.
+      
+      <h3>Changelog</h3>
+      
+      <b>1.0.0</b><br />
+      <ul>
+      <li>Initial Release</li>
+      </ul>]]>
+  </description>
+  <files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>favicon.ico</filename>
+    <filename>templateDetails.xml</filename>
+    <folder>css/</folder>
+    <folder>images/</folder>
+    <filename>params.ini</filename>
+  </files>
+  <positions>
+    <position>top</position>
+    <position>bottom</position>
+    <position>footer</position>
+    <position>breadcrum</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+    <position>user4</position>
+    <position>user5</position>
+    <position>user6</position>
+    <position>left</position>
+    <position>right</position>
+    <position>logo</position>
+  </positions>
+  <params>
+    <param name="font" type="list" default="0" label="Template font theme" description="Choose your pleasure." >
+      <option value="'Palatino Linotype', 'Book Antiqua', Palatino, serif">"Palatino Linotype", "Book Antiqua", Palatino, serif</option>
+      <option value="Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+      <option value="Trebuchet MS, Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica, sans-serif</option>
+    </param>
+	    <param name="size" type="list" default="12" label="Template font size" description="Choose your pleasure." >
+      <option value="10">Small font</option>
+      <option value="12">Medium font</option>
+      <option value="14">Big font</option>
+	        <option value="16">Bigger font</option>
+    </param>
+	<param name="Logotype" type="imagelist" default="" label="Pick your logo for the top" description="Your logotype" directory="images/stories/" exclude="" stripext="" />
+	<param name="Background" type="imagelist" default="" label="Pick your background" description="" directory="templates/gazette_joohopia/images/background/" exclude="" stripext="" />
+  </params>
+</install>
